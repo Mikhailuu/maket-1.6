@@ -1,0 +1,10 @@
+.showmore-brands {
+  row-gap: 16px;
+  padding-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    flex-wrap: wrap;
+    column-gap: 24px;
+    padding-bottom: 0px;
+  }
+}

@@ -1,0 +1,72 @@
+button {
+  font-family: 'TT Lakes', sans-serif;
+}
+
+.submit-button {
+  background: none;
+  border: none;
+  align-self: flex-end;
+}
+
+.showmore {
+  height: 24px;
+  display: inline-flex;
+  gap: 16px;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.showmore-brands-btn {
+  padding-left: 16px;
+  @media screen and (min-width: 768px) {
+    padding-left: 24px;
+  }
+}
+
+.showmore-techs-btn {
+  padding-left: 16px;
+  @media screen and (min-width: 768px) {
+    padding-left: 24px;
+  }
+}
+
+.showmore__button {
+  font-family: 'TT Lakes', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+
+  background: none;
+  border: none;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.showmore__icon {
+  position: relative;
+  display: block;
+  width: 8px;
+  height: 11px;
+  opacity: 1;
+  background: no-repeat url(/src/icons/icon-exp.svg);
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+.showmore__icon--expand {
+  transform: rotate(180deg);
+}
+
+.close-button {
+  align-self: flex-start;
+  background-color: transparent;
+  border: none;
+}
+
+.button-order {
+  background: none;
+  border: none;
+}

@@ -1,0 +1,104 @@
+$bgColor: #f8f8f8;
+$text: #1b1c21;
+$h2Color: #7e7e82;
+$bgColorMenu: #ffffff;
+$btnColor: #ff3e79;
+$priceColor: #ffffff;
+$brdColor: #eaeaea;
+$polColor: #ff3e79;
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('/src/fonts/TTLakes-Regular.eot');
+  src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+    url('/src/fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/src/fonts/TTLakes-Regular.woff') format('woff'),
+    url('/src/fonts/TTLakes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('/src/fonts/TTLakes-Medium.eot');
+  src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+    url('/src/fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/src/fonts/TTLakes-Medium.woff') format('woff'),
+    url('/src/fonts/TTLakes-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('/src/fonts/TTLakes-Bold.eot');
+  src: local('TT Lakes Bold'), local('TTLakes-Bold'),
+    url('/src/fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/src/fonts/TTLakes-Bold.woff') format('woff'),
+    url('/src/fonts/TTLakes-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'TT Lakes', sans-serif;
+  font-size: 14px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: $bgColor;
+  position: relative;
+}
+
+p {
+  margin-top: 0;
+  text-wrap: wrap;
+}
+
+.page {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@import './library.blocks/button.scss';
+@import './library.blocks/input-forms.scss';
+@import './library.blocks/link.scss';
+@import './library.blocks/photo.scss';
+@import './library.blocks/title.scss';
+@import './library.blocks/list-menu.scss';
+@import './library.blocks/showmore-wrapper.scss';
+
+@import './common.blocks/main/buttons-menu.css';
+@import './common.blocks/main/content.css';
+@import './common.blocks/main/email.css';
+@import './common.blocks/main/header.css';
+@import './common.blocks/main/lang-menu.css';
+@import './common.blocks/main/phone.css';
+@import './common.blocks/main/side-menu.scss';
+@import './common.blocks/main/upper-menu.scss';
+@import './common.blocks/main/side-block.scss';
+@import './common.blocks/main/footer.scss';
+@import './common.blocks/services-blocks/brands.scss';
+@import './common.blocks/services-blocks/call.css';
+@import './common.blocks/services-blocks/feedback.scss';
+@import './common.blocks/services-blocks/links-menu.css';
+@import './common.blocks/services-blocks/prices.scss';
+@import './common.blocks/services-blocks/prices__table.scss';
+@import './common.blocks/services-blocks/services-block.scss';
+@import './common.blocks/services-blocks/services-block__title.scss';
+@import './common.blocks/services-blocks/techs.scss';
+@import './common.blocks/main/main-wrapper.scss';
+@import './common.blocks/main/content.scss';

@@ -1,0 +1,126 @@
+$cardColor: #ffffff;
+$textColor: #7e7e82;
+
+.prices-table {
+  box-sizing: border-box;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  padding: 16px;
+  margin: 16px;
+  display: table;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 1056px;
+  }
+}
+
+.prices-table__head {
+  color: $textColor;
+  @media screen and (max-width: 768px) {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+}
+
+th {
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: start;
+  height: 64px;
+}
+
+.prices-table__tbody {
+  display: table-row-group;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+  }
+}
+
+.prices-table__row {
+  box-sizing: border-box;
+  padding: 16px;
+  display: table-row;
+  height: 64px;
+  width: 100%;
+  background-color: $priceColor;
+
+  @media screen and (max-width: 768px) {
+    min-width: 260px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    padding-top: 32px;
+    justify-content: space-between;
+  }
+}
+
+.prices-table__row::after {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    display: block;
+    content: '';
+    border-bottom: 1px solid $textColor;
+    height: 1px;
+    width: 95%;
+  }
+}
+
+.prices-table__row-last::after {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    display: block;
+    content: '';
+    border-bottom: 1px solid $cardColor;
+    height: 2px;
+    width: 95%;
+    background-color: $cardColor;
+  }
+}
+
+.prices-table__row--head {
+  background-color: transparent;
+  border: none;
+}
+
+.order-btn {
+  text-align: right;
+}
+
+td {
+  padding-left: 24px;
+  padding-right: 24px;
+  @media screen and (max-width: 768px) {
+    padding: 0;
+    border: none;
+    position: relative;
+  }
+}
+
+td::before {
+  @media screen and (max-width: 768px) {
+    position: absolute;
+    left: 0;
+    top: -16px;
+    content: attr(data-label);
+    color: $h2Color;
+  }
+}
+
+.order-btn {
+  @media screen and (max-width: 768px) {
+    position: absolute;
+    bottom: 16px;
+    align-self: flex-end;
+  }
+}

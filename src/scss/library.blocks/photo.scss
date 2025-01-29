@@ -1,0 +1,38 @@
+.photo-fit {
+  border-radius: 6px;
+  width: 320px;
+  height: 176px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  @media screen and (min-width: 768px) {
+    min-width: 360px;
+    height: 208px;
+    border-radius: 6px;
+    margin-right: 24px;
+  }
+
+  @media screen and (min-width: 1120px) {
+    border-radius: 0px;
+    min-width: 531.35px;
+    height: 307px;
+    margin-right: 27.65px;
+  }
+}
+
+.photo {
+  width: 320px;
+  height: 230.8px;
+
+  @media screen and (min-width: 768px) {
+    width: 360px;
+    height: 259.66px;
+  }
+
+  @media screen and (min-width: 1120px) {
+    width: 531.35px;
+    height: 383.24px;
+  }
+}

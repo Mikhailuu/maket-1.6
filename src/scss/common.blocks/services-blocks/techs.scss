@@ -1,0 +1,33 @@
+.techs__item {
+  box-sizing: border-box;
+  background-color: $priceColor;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.techs__item-title {
+  align-self: self-start;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.showmore-techs {
+  row-gap: 16px;
+  padding-bottom: 40px;
+  @media screen and (max-width: 768px) {
+    height: 154px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 0px;
+  }
+
+  @media screen and (min-width: 768px) {
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+}

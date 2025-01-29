@@ -1,0 +1,22 @@
+.content {
+  width: 100%;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @media screen and (min-width: 768px) {
+    gap: 24px;
+    padding-left: 24px;
+  }
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+
+  @media screen and (min-width: 768px) {
+    gap: 24px;
+  }
+}
