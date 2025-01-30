@@ -9,33 +9,33 @@ $polColor: #ff3e79;
 
 @font-face {
   font-family: 'TT Lakes';
-  src: url('/src/fonts/TTLakes-Regular.eot');
+  src: url('fonts/TTLakes-Regular.eot');
   src: local('TT Lakes Regular'), local('TTLakes-Regular'),
-    url('/src/fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
-    url('/src/fonts/TTLakes-Regular.woff') format('woff'),
-    url('/src/fonts/TTLakes-Regular.ttf') format('truetype');
+    url('fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTLakes-Regular.woff') format('woff'),
+    url('fonts/TTLakes-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'TT Lakes';
-  src: url('/src/fonts/TTLakes-Medium.eot');
+  src: url('fonts/TTLakes-Medium.eot');
   src: local('TT Lakes Medium'), local('TTLakes-Medium'),
-    url('/src/fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
-    url('/src/fonts/TTLakes-Medium.woff') format('woff'),
-    url('/src/fonts/TTLakes-Medium.ttf') format('truetype');
+    url('fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTLakes-Medium.woff') format('woff'),
+    url('fonts/TTLakes-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'TT Lakes';
-  src: url('/src/fonts/TTLakes-Bold.eot');
+  src: url('fonts/TTLakes-Bold.eot');
   src: local('TT Lakes Bold'), local('TTLakes-Bold'),
-    url('/src/fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
-    url('/src/fonts/TTLakes-Bold.woff') format('woff'),
-    url('/src/fonts/TTLakes-Bold.ttf') format('truetype');
+    url('fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTLakes-Bold.woff') format('woff'),
+    url('fonts/TTLakes-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -81,16 +81,12 @@ p {
 @import './library.blocks/list-menu.scss';
 @import './library.blocks/showmore-wrapper.scss';
 
-@import './common.blocks/main/buttons-menu.css';
-@import './common.blocks/main/content.css';
 @import './common.blocks/main/side-menu.scss';
 @import './common.blocks/main/upper-menu.scss';
 @import './common.blocks/main/side-block.scss';
 @import './common.blocks/main/footer.scss';
 @import './common.blocks/services-blocks/brands.scss';
-@import './common.blocks/services-blocks/call.css';
 @import './common.blocks/services-blocks/feedback.scss';
-@import './common.blocks/services-blocks/links-menu.css';
 @import './common.blocks/services-blocks/prices.scss';
 @import './common.blocks/services-blocks/prices__table.scss';
 @import './common.blocks/services-blocks/services-block.scss';
