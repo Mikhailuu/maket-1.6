@@ -14,7 +14,6 @@ var sideAct = function () {
   sideBlockButton.addEventListener('click', function (e) {
     e.stopPropagation()
     openSide()
-    console.log('123')
   })
   closeSideBlockBtn.addEventListener('click', function () {
     closeSide()
@@ -25,7 +24,6 @@ if (sideBlock.classList.value.includes('side-block--hidden')) {
   mainWrapper.onclick = function (e) {
     e.stopPropagation()
     sideBlock.classList.add('side-block--hidden')
-    console.log('123')
   }
 }
 
