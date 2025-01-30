@@ -103,7 +103,7 @@ button {
   width: 8px;
   height: 11px;
   opacity: 1;
-  background: no-repeat url(/src/icons/icon-exp.svg);
+  background: no-repeat url("/src/icons/icon-exp.svg");
   transition-timing-function: ease-in-out;
   transition-duration: 0.2s; }
 
@@ -498,7 +498,7 @@ button {
   transform: translateY(6px);
   width: 24px;
   height: 24px;
-  background-image: url(/src/icons/icon-go.svg); }
+  background-image: url("/src/icons/icon-go.svg"); }
 
 .prices-table {
   box-sizing: border-box;
