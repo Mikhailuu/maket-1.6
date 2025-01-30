@@ -1,9 +1,5 @@
 
 
-
-
-
-
 .call {
   border: none;
   width: 320px;
@@ -417,6 +413,10 @@ button {
 .email,
 .phone {
   padding-left: 16px; }
+  @media screen and (min-width: 768px) {
+    .email,
+    .phone {
+      padding-left: 24px; } }
 
 .lang-menu {
   margin-top: 24px; }
