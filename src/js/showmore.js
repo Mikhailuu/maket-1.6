@@ -24,7 +24,7 @@ var brandExpandIcon = shomoreBtnBrandsCont.querySelector('.showmore__icon')
 
 var showmoreBrands = function () {
   var count = 0
-  if (window.matchMedia('(min-width: 768px)')) {
+  if (window.innerWidth < 768) {
     count = 6
   } else {
     count = 8
